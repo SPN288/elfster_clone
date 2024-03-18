@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>elfstersnata</title>
+</head>
+
+<body>
+    <div>
+        <header class="head ">
+            <span><img src="images/elf.png" alt="elfster"></span>
+        </header>
+        <div class="prog">
+            <div class="progb"></div>
+        </div>
+    </div>
+    <div class="car2">
+        <div>
+            <img src="images/hero-badge-mobile.png" alt="car">
+        </div>
+    </div>
+    <div id="car">
+        <div class="form">
+            <h1 class="syss ">Start Your Secret Santa</h1>
+            <h5 class="des">Organize your Elfster exchange lickety-split. You'll be done in less than two minutes.
+                Then get ready to exchange gifts! Already did this last year? Use your previous exchanges.</h5>
+            <form action="" method="POST">
+
+                <div class="fin">
+                    <h2>Enter Names</h2>
+                    <div class="input-field field">
+                        <p><b>Your Name</b></p>
+                        <input type="text" name="name" required placeholder="Enter Name" class="item">
+                    </div>
+
+
+                    <div>
+                        <label class="container">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span><b>I'm organizing and participating</b>
+                        </label><br>
+                        <label class="container">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span><b>I'm just organizing</b>
+                        </label><br>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" name="name" required placeholder="Enter Name2" class="item">
+                    </div>
+
+                    <div class="input-field field">
+                        <input type="text" name="name" required placeholder="Enter Name3" class="item">
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" name="name" required placeholder="Enter Name4" class="item">
+                    </div>
+                    <div id="dynamicCheck">
+                        <input id="add" type="button" value="+ Add more names?" onclick="createNewElement();" />
+
+                    </div>
+
+                    <div id="newElementId"></div>
+                </div>
+
+                <div class="">
+                    <button type="submit" class="">Get the party started -></button>
+                    <p>Don't fret! You can add more friends (or remove them) later, no sweat.</p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="p1">
+        <div class="p2">
+            <div class="p3"><img
+                    src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/handshake-heart.png?562d268950c488483ce5"
+                    alt="heart">
+                <h1 class="p4">Trusted by 33 million people</h1>
+            </div>
+            <div class="p3"><img
+                    src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/landing/stars-group.png?e6a7c111a75eb388921e"
+                    alt="stars">
+                <h1 class="p4">4.9 stars | 234K ratings</h1>
+            </div>
+            <div class="p3"><img
+                    src="https://static.elfster.com/2024.315.1250.4654/apps/vue/static/images/ssg/trophy.png?c40d5efc6fefa650d74c"
+                    alt="">
+                <h1 class="p4">Secret Santa Generator</h1>
+            </div>
+
+        </div>
+    </div>
+    <div class="foot">
+        <div>
+            <img src="images/elf.png" alt="elfster">
+        </div>
+        <div class="about">
+            <div class="abox">
+                <span class="sp">About</span>
+            </div>
+            <div class="abox"><span class="sp">Advertise</span></div>
+            <div class="abox"><span class="sp">Help</span></div>
+            <div class="abox"><span class="sp">Tell a Friend</span></div>
+        </div>
+        <div class="f1">
+            <div class="f2">Follow on social <div class="img1"><a href="https://www.instagram.com/elfster/"><img
+                            class="img2" src="images/instagram_6422200.svg" alt="instagram"></a></div>
+                <div class="img1"><a href="https://twitter.com/elfster"><img class="img2"
+                            src="images/twitter_6422210.svg" alt=""></a></div>
+                <div class="img1"><a href="https://www.facebook.com/elfster"><img class="img2"
+                            src="images/facebook_6422199.svg" alt=""></a></div>
+                <div class="img1"><a href="https://www.pinterest.com/Elfster/"><img class="img2"
+                            src="images/pinterest_6422204.svg" alt=""></a></div>
+                <div class="img1"><a href="https://www.youtube.com/channel/UCEo6B92h4X1YSUJMdQeLUTA"><img class="img2"
+                            src="images/youtube_6422215.svg" alt=""></a></div>
+            </div>
+            <div class="f2">Download the app <div class=""><a
+                        href="https://apps.apple.com/us/app/elfster-the-secret-santa-app/id751594890"><img class="img2"
+                            src="images/app.png" alt=""></a></div>
+            </div>
+            <div class="f2">Sign Up for Gifts, Giveaways & Good News! <div class=""> <input class="e1" type="text"
+                        placeholder="Enter Email   ->"></div>
+            </div>
+        </div>
+    </div>
+    <footer>© 2024 Elfster, Inc.
+        Privacy Policy
+        CA Privacy Rights
+        Terms Of Service
+
+        USA
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
