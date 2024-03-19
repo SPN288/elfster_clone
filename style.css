@@ -1,35 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #008080;
-    width: 100%;
+    width: auto;
 }
-.head{
-    
-    top:0px;max-height:calc(100vh - 0px);
+
+.head {
+
+    top: 0px;
+    max-height: calc(100vh - 0px);
     padding: 10px;
     padding-top: 50px;
     text-align: center;
     height: 70px;
     background-color: white;
 }
-.prog{
+
+.prog {
     height: 20px;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     width: 100%;
 }
-.progb{
-    background-color:#008080;
+
+.progb {
+    background-color: #008080;
     height: 100%;
     width: 20%;
 }
-#car{
-    background-image:url(images/back.png);
+
+#car {
+    background-image: url(images/back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     align-content: center;
     align-items: center;
     text-align: center;
@@ -37,9 +43,10 @@ body{
     padding-top: 50px;
     padding-bottom: 20px;
 }
-.car2{
-    
-    background-image:url(images/car2.png);
+
+.car2 {
+
+    background-image: url(images/car2.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,23 +54,32 @@ body{
     padding-top: 35%;
     width: 100%;
 }
-.form{
+
+.bdg {
+    text-align: right;
+    padding-bottom: 20px;
+    height: min-content;
+}
+
+.form {
     align-items: center;
     text-align: center;
     background: #FFFFFF;
     width: 600px;
+margin: auto;
 
-    margin: auto;
-    padding:  90px;
+    padding: 90px;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    
+
 }
-.fin{
+
+.fin {
     text-align: left;
-    
+
 }
-#add{
+
+#add {
     color: teal;
     font-size: 1.2rem;
     font-weight: 600;
@@ -72,6 +88,7 @@ body{
     border: none;
     cursor: pointer;
 }
+
 .container {
     display: block;
     position: relative;
@@ -83,17 +100,17 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .container input {
+}
+
+/* Hide the browser's default radio button */
+.container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
+}
+
+/* Create a custom radio button */
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -101,68 +118,74 @@ body{
     width: 20px;
     background-color: #eee;
     border-radius: 50%;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
     background-color: #ccc;
-  }
-  
-  /* When the radio button is checked, add a blue background */
-  .container input:checked ~ .checkmark {
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.checkmark {
     background-color: #EFEFF4;
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
     display: block;
     background-color: #008080;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-       top: 5px;
-      left: 5px;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: white;
-  }
-.foot{
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+.foot {
     background-color: #F0F9F7;
     border-top-left-radius: 150px;
     text-align: center;
     align-items: center;
     padding: 30px;
     padding-top: 80px;
-    
+    width: auto;
+
 }
-.field{
+
+.field {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
 .field .item {
-    
+
     width: 80%;
     padding: 18px;
     background: transparent;
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 8px;
     outline: none;
     font-size: 16px;
     color: #ededed;
-    
+
 }
+
 form .textarea-field .item {
     resize: none;
 }
+
 form button {
     padding: 12px 32px;
     background: #008080;
@@ -177,21 +200,25 @@ form button {
     margin-top: 0px;
     transition: .5s;
 }
-form button:hover{
+
+form button:hover {
     box-shadow: none;
 }
-.about{
+
+.about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
-.abox{
+
+.abox {
     margin: 10px;
     padding: 10px;
     text-align: center;
     font-weight: 400;
 }
+
 .syss {
     color: #000;
 
@@ -203,6 +230,7 @@ form button:hover{
     padding: 2rem 0;
 
 }
+
 .des {
     margin-top: 20px;
     color: #000;
@@ -212,33 +240,45 @@ form button:hover{
     line-height: 2rem;
     text-align: center;
 }
+
 .elfster {
     font-size: 4rem;
     font-weight: lighter;
     padding: 20px;
 }
-.p2{padding: 20px;
+
+.p1 {
+    background-color: #F0F9F7;
+    width: auto;
+
+}
+
+.p2 {
+    padding: 20px;
     display: flex;
-    flex-wrap:auto;
+    flex-wrap: nowrap;
     justify-content: space-around;
     border-bottom-right-radius: 150px;
     background-color: #008080;
+    width: auto;
+
 }
-.p1{
-    background-color: #F0F9F7;
-    
-}
-.p3{
+
+.p3 {
     text-align: center;
-    margin: 10px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
     color: #FFFFFF;
+    width: auto;
+
 }
-.p4{
+
+.p4 {
     font-weight: 200;
-    font-size: x-large;
+    font-size: large;
 }
-.sp{
+
+.sp {
     color: #000;
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
@@ -246,44 +286,50 @@ form button:hover{
     line-height: 2.3rem;
     padding: 10px 30px;
 }
+
 footer {
     text-align: center;
     color: #FFFFFF;
     margin: 5px;
     padding: 7px;
 }
-.img1{
+
+.img1 {
     width: 20px;
 }
-.img2{
+
+.img2 {
     width: 100%;
     height: 100%;
 }
-.f1{
+
+.f1 {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    
+
 }
-.f2{
+
+.f2 {
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-     margin: 10px;
-     padding: 70px;
-     width: 15%;
-     height: 5vh;
-     font-weight: 400;
+    margin: 10px;
+    padding: 70px;
+    width: 15%;
+    height: 5vh;
+    font-weight: 400;
 }
-.e1{
+
+.e1 {
     width: 90%;
-    
+
     padding: 10px;
     border: 2px solid #008080;
     border-radius: 10px;
@@ -294,23 +340,75 @@ footer {
 
 @media (max-width: 868px) {
 
-    .head{
+    .head {
         display: none;
     }
-    .car2{
-    
+
+    .car2 {
+
         display: block;
     }
-    .form{
-        width: 100%;
+
+    .form {
+        width: auto;
         margin: 0;
         border-radius: 0;
-        
+
     }
-    #car{
+
+    #car {
         width: 100%;
+        padding: 0;
+
+    }
+
+    .p3 {
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
+        color: #FFFFFF;
+        width: auto;
+        overflow: auto;
+        height: 60px;
+    }
+
+    .p4 {
+        font-weight: 100;
+        font-size: small;
+
+    }
+
+    .p2 {
+        border-bottom-right-radius: 50px;
+
+    }
+
+    .foot {
+
+        border-top-left-radius: 50px;
+    }
+
+    .syss {
+        color: #000;
+
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.6rem;
+        margin: 0 auto;
+        max-width: 20.6rem;
+        padding: 1rem 0;
+
+    }
+    .des {
+        margin-top: 10px;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 200;
+        letter-spacing: -.024rem;
+        line-height: 2rem;
+        text-align: center;
         padding: 0;
     }
 
-    
+
 }
